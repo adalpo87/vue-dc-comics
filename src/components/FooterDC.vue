@@ -3,7 +3,7 @@
         <div class="blue-line">
             <ul>
                 <!-- <li v-for="(link, index) in links" :key="index">
-                    <img :src="link.img" alt="#">
+                    <img :src="link.img" alt="">
                     <a :href="link.url">{{link.text}}</a>
                 </li> -->
                 <li>
@@ -115,27 +115,27 @@ export default {
             links:[
                 {
                     text: 'DIGITAL COMICS',
-                    img: '@/assets/img/buy-comics-digital-comics.png',
+                    img: 'comics-digital-comics.png',
                     url: '#'
                 },
                 {
                     text: 'DC MERCHANDISE',
-                    img: '@/assets/img/buy-comics-merchandise.png',
+                    img: 'comics-merchandise.png',
                     url: '#'
                 },
                 {
                     text: 'SUBSCRIPTION',
-                    img: '@/assets/img/buy-comics-shop-locator.png',
+                    img: 'comics-shop-locator.png',
                     url: '#'
                 },
                 {
                     text: 'COMIC SHOP LOCATOR',
-                    img: '@/assets/img/buy-comics-subscriptions.png',
+                    img: 'comics-subscriptions.png',
                     url: '#'
                 },
                 {
                     text: 'DC POWER VISA',
-                    img: '@/assets/img/buy-dc-power-visa.svg',
+                    img: 'dc-power-visa.svg',
                     url: '#'
                 }
             ]

@@ -22,12 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
- *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
- body{
-   font-family: 'Roboto', sans-serif;
- }
+
+ @import './assets/style/general.scss';
+
 </style>
