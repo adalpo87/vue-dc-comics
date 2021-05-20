@@ -1,0 +1,51 @@
+.terms {
+    min-height: 300px;
+    height: 80%;
+    background-image: url(../assets/img/footer-bg.jpg);
+}
+
+.terms .container {
+    width: $width-container;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+.terms .container .listaDC {
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.terms .container .listaDC section {
+    width: calc(100% / 3);
+}
+
+.terms .container .listaDC section h5 {
+    color: white;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    font-size: 110%;
+}
+
+.terms .container .listaDC section ul {
+    margin-bottom: 10px;
+}
+
+.terms .container .listaDC section ul li {
+    list-style: none;
+}
+
+.terms .container .listaDC section ul li a {
+    text-decoration: none;
+    color: $footer-color;
+    font-size: 80%;
+}
+
+.terms .container .logoDC {
+    width: 60%;
+    background-image: url(../assets/img/dc-logo-bg.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

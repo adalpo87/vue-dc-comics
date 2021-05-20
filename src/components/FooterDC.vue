@@ -88,10 +88,10 @@
         </div>
         <div class="sign">
             <div class="container">
-            <footer-left>
+            <div class="footer-left">
                 <a href="">SIGN UP NOW!</a>
-            </footer-left>
-            <footer-right>
+            </div>
+            <div class="footer-right">
                 <ul>
                     <li><a href="#">FOLLOW US</a></li>
                     <li><a href="#"></a><img src="@/assets/img/footer-facebook.png" alt=""></li>
@@ -101,7 +101,7 @@
                     <li><a href="#"></a><img src="@/assets/img/footer-youtube.png" alt=""></li>
                 
                 </ul>
-            </footer-right>
+            </div>
             </div>
         </div>
     </footer>
@@ -148,125 +148,11 @@ export default {
  @import '../assets/style/vars.scss';
     footer{
         height: 50vh;
-        .blue-line{
-            height: 150px;
-            background-color: $brand-color;
-
-                ul{
-                    width: $width-container;
-                    margin: auto;
-                    height: 100%;
-                    display: flex;
-                    
-                        li{
-                            width: calc(100% / 5);
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            
-                                img{
-                                    width: 20%;
-                                }
-                                a{
-                                    margin: 14px;
-                                    font-size: 12px;
-                                    text-decoration: none;
-                                    color: white;
-                                    
-                                }
-                        }
-                }
-
-        }
-        .terms{
-            min-height: 300px;
-            height: 80%;
-            background-image: url(../assets/img/footer-bg.jpg);
-                .container{
-                    width: $width-container;
-                    margin: auto;
-                    height: 100%;
-                    display: flex;
-                        .listaDC{
-                            width: 40%;
-                            height: 100%;
-                            display: flex;
-                              section{
-                                  width: calc(100% / 3);
-                                  
-                                    h5{
-                                        color: white;
-                                        text-transform: uppercase;
-                                        margin: 15px 0px;
-                                        font-size: 110%;
-                                    }
-                                    ul{
-                                        margin-bottom: 10px;
-                                        
-                                        li{
-                                            list-style: none;
-                                                a{
-                                                   text-decoration: none;
-                                                   color: $footer-color;
-                                                   font-size: 80%;
-                                                }
-                                        }
-                                    }
-                              }
-                        }
-                        .logoDC{
-                            width: 60%;
-                            background-image: url(../assets/img/dc-logo-bg.png);
-                            background-size: 80%;
-                            background-repeat: no-repeat;
-                            background-position: center;
-                        }
-                }
-
-        }
-        .sign{
-            width: 100%;
-            height: 12vh;
-            display: flex;
-            background-color:$bgfooter;
-                .container{
-                    height: 100%;
-                    width: $width-container;
-                    margin: auto;
-                    display: flex;
-                            footer-left{
-                            height: 100%;
-                            width: 50%;
-                            display: flex;
-                            align-items: center;
-                                a{
-                                    text-decoration: none;
-                                    color: white;
-                                    padding: 13px 5px;
-                                    border: 2px solid $brand-color;
-                                }
-                        }
-                        footer-right{
-                            height: 100%;
-                            width: 50%;
-                            display: flex;
-                            justify-content: flex-end;
-                                ul{
-                                    display: flex;
-                                    align-items: center;
-                                        li{
-                                            list-style: none;
-                                            margin-left: 15px;
-                                            a{
-                                                color: $brand-color;
-                                                text-decoration: none;
-                                            }
-                                        }
-                                }
-
-                        }
-                }
-                   
-        }
+        /* blue-line */
+        @import '../assets/style/footer-blue.scss';
+        /* background con sfondo DC */
+        @import '../assets/style/footer-terms.scss';
+        /* Sign Up */
+        @import '../assets/style/footer-sign.scss';
     }
 </style>

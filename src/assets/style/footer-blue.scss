@@ -1,0 +1,29 @@
+.blue-line {
+    height: 150px;
+    background-color: $brand-color;
+}
+
+.blue-line ul {
+    width: $width-container;
+    margin: auto;
+    height: 100%;
+    display: flex;
+}
+
+.blue-line ul li {
+    width: calc(100% / 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-line ul li img {
+    width: 20%;
+}
+
+.blue-line ul li a {
+    margin: 14px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}

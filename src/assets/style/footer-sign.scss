@@ -1,0 +1,49 @@
+.sign {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    background-color: $bgfooter;
+}
+
+.sign .container {
+    height: 100%;
+    width: $width-container;
+    margin: auto;
+    display: flex;
+}
+
+.sign .container .footer-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.sign .container .footer-left a {
+    text-decoration: none;
+    color: white;
+    padding: 13px 5px;
+    border: 2px solid $brand-color;
+}
+
+.sign .container .footer-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign .container .footer-right ul {
+    display: flex;
+    align-items: center;
+}
+
+.sign .container .footer-right ul li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.sign .container .footer-right ul li a {
+    color: $brand-color;
+    text-decoration: none;
+}
