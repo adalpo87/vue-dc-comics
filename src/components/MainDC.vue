@@ -1,6 +1,68 @@
 <template>
   <main>
-      <h2>...CONTENT GOES HERE</h2>
+      <div class="wrapper">
+          <div class="container">
+              <span class="cur-series">
+                  CURRENT SERIES
+              </span>
+          </div>
+      </div>
+      <div class="series">
+          
+              <ul>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+                  <li>
+                        <div class="img-dc"></div>
+                        <a href="">Action Comics</a>
+                  </li>
+              
+                  
+              </ul>
+            <button>LOAD MORE</button>
+      </div>
   </main>
 </template>
 
@@ -11,13 +73,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    main{
-        height: 30vh;
-        width: 100%;
-        background-color: black;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@import '../assets/style/vars.scss';
+    @import '../assets/style/main-wrapper.scss';
+    @import '../assets/style/main-series.scss';
 </style>

@@ -1,0 +1,24 @@
+main {
+    width: 100%;
+    color: white;
+    background-color: $bgfooter;
+    .wrapper {
+        height: 45vh;
+        background-image: url(../assets/img/jumbotron.jpg);
+        background-size: cover;
+        width: 100%;
+        .container {
+            width: $width-container;
+            margin: auto;
+            height: 100%;
+            position: relative;
+            .cur-series {
+                padding: 12px 40px;
+                background-color: $brand-color;
+                font-weight: 600;
+                position: absolute;
+                bottom: -20px;
+            }
+        }
+    }
+}

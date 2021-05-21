@@ -1,0 +1,39 @@
+.series {
+    width: $width-container;
+    margin: auto;
+    text-align: center;
+    ul {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            list-style: none;
+            width: calc(100% / 6);
+            padding: 20px;
+            text-align: left;
+            .img-dc {
+                width: 150px;
+                height: 150px;
+                background-image: url(https://www.dccomics.com/sites/default/files/styles/covers192x291/public/gn-covers/2018/08/AQMv4_UW_153-001_HD_5b7efa1745a9b8.08589135.jpg?itok=HPTtnrsb);
+                background-size: cover;
+                background-size: 90%;
+                background-repeat: no-repeat;
+                margin-bottom: 10px;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 0.8rem;
+            }
+        }
+    }
+    button {
+        margin: 30px;
+        padding: 8px 40px;
+        border-radius: 0;
+        border: none;
+        background-color: $brand-color;
+        color: white;
+        font-weight: 600;
+    }
+}
